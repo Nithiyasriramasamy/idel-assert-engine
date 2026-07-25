@@ -1,0 +1,165 @@
+// Database configuration for SQLite local production SaaS
+generator client {
+  provider = "prisma-client-js"
+  output   = "../backend/node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String         @id @default(uuid())
+  name             String
+  email            String         @unique
+  password         String
+  role             String         // OWNER | RENTER
+  avatar           String?
+  phone            String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  assets           Asset[]
+  bookings         Booking[]      @relation("RenterBookings")
+  reviews          Review[]
+  notifications    Notification[]
+  favorites        Favorite[]
+  sentMessages     Message[]      @relation("SentMessages")
+  receivedMessages Message[]      @relation("ReceivedMessages")
+}
+
+model Asset {
+  id           String     @id @default(uuid())
+  ownerId      String
+  owner        User       @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  title        String
+  description  String
+  category     String     // e.g., Parking, Room, House, Villa, Office, Shop, Vehicle, Camera, Tools
+  images       String     // Comma-separated image URLs or base64 strings
+  location     String
+  latitude     Float
+  longitude    Float
+  hourlyPrice  Float
+  dailyPrice   Float
+  weeklyPrice  Float
+  monthlyPrice Float
+  dynamicPrice Float?
+  status       String     // AVAILABLE | PAUSED | RENTED
+  rating       Float      @default(0.0)
+  deviceId     String?    @unique
+  device       Device?    @relation(fields: [deviceId], references: [id], onDelete: SetNull)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  bookings     Booking[]
+  reviews      Review[]
+  favorites    Favorite[]
+}
+
+model Booking {
+  id            String     @id @default(uuid())
+  assetId       String
+  asset         Asset      @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  renterId      String
+  renter        User       @relation("RenterBookings", fields: [renterId], references: [id], onDelete: Cascade)
+  startTime     DateTime
+  endTime       DateTime
+  totalAmount   Float
+  agreement     String?    // Agreement content summary
+  accessCode    String?    // IoT entry code
+  bookingStatus String     // PENDING | ACTIVE | COMPLETED | CANCELLED
+  paymentStatus String     // UNPAID | PAID
+  createdAt     DateTime   @default(now())
+  payments      Payment[]
+  agreements    Agreement[]
+}
+
+model Review {
+  id        String   @id @default(uuid())
+  rating    Int
+  comment   String
+  assetId   String
+  asset     Asset    @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
+
+model Device {
+  id           String      @id @default(uuid())
+  serialNumber String      @unique
+  battery      Int         @default(100)
+  status       String      // ONLINE | OFFLINE
+  temperature  Float       @default(22.5)
+  signal       Int         @default(90) // percentage
+  lastSeen     DateTime    @default(now())
+  createdAt    DateTime    @default(now())
+  deviceLogs   DeviceLog[]
+  asset        Asset?
+}
+
+model Payment {
+  id            String   @id @default(uuid())
+  bookingId     String
+  booking       Booking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  amount        Float
+  method        String   // UPI | CARD | WALLET | CASH
+  status        String   // PENDING | SUCCESS | FAILED
+  transactionId String   @unique
+  createdAt     DateTime @default(now())
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model DeviceLog {
+  id        String   @id @default(uuid())
+  deviceId  String
+  device    Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  event     String   // LOCKED | UNLOCKED | MOTION
+  timestamp DateTime @default(now())
+}
+
+model Favorite {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assetId   String
+  asset     Asset    @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id         String   @id @default(uuid())
+  senderId   String
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  receiverId String
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id], onDelete: Cascade)
+  content    String
+  createdAt  DateTime @default(now())
+}
+
+model Agreement {
+  id        String   @id @default(uuid())
+  bookingId String
+  booking   Booking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  content   String
+  signature String
+  signedAt  DateTime @default(now())
+}
+
+model Analytics {
+  id            String   @id @default(uuid())
+  date          DateTime @default(now())
+  revenue       Float
+  bookingsCount Int
+  occupancyRate Float
+  visitorsCount Int
+  category      String
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "owner-0001",
+    "name": "Siddharth Sharma",
+    "email": "siddharth.sharma@example.com",
+    "city": "Vizag",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0002",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@example.com",
+    "city": "Mysore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0003",
+    "name": "Siddharth Gupta",
+    "email": "siddharth.gupta@example.com",
+    "city": "Coimbatore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0004",
+    "name": "Nisha Bhatia",
+    "email": "nisha.bhatia@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0005",
+    "name": "Rashmi Desai",
+    "email": "rashmi.desai@example.com",
+    "city": "Hyderabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0006",
+    "name": "Nisha Patel",
+    "email": "nisha.patel@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0007",
+    "name": "Sahil Bhatia",
+    "email": "sahil.bhatia@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0008",
+    "name": "Sneha Kumar",
+    "email": "sneha.kumar@example.com",
+    "city": "Vizag",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0009",
+    "name": "Sneha Kumar",
+    "email": "sneha.kumar@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0010",
+    "name": "Siddharth Chaudhary",
+    "email": "siddharth.chaudhary@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0011",
+    "name": "Sahil Mishra",
+    "email": "sahil.mishra@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0012",
+    "name": "Rashmi Joshi",
+    "email": "rashmi.joshi@example.com",
+    "city": "Delhi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0013",
+    "name": "Aditya Joshi",
+    "email": "aditya.joshi@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0014",
+    "name": "Vihaan Singh",
+    "email": "vihaan.singh@example.com",
+    "city": "Coimbatore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0015",
+    "name": "Ananya Patel",
+    "email": "ananya.patel@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0016",
+    "name": "Rohan Chaudhary",
+    "email": "rohan.chaudhary@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0017",
+    "name": "Deepika Kulkarni",
+    "email": "deepika.kulkarni@example.com",
+    "city": "Mysore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0018",
+    "name": "Nisha Kulkarni",
+    "email": "nisha.kulkarni@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0019",
+    "name": "Rohan Sharma",
+    "email": "rohan.sharma@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0020",
+    "name": "Priya Verma",
+    "email": "priya.verma@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0021",
+    "name": "Nisha Mishra",
+    "email": "nisha.mishra@example.com",
+    "city": "Delhi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0022",
+    "name": "Aditya Sharma",
+    "email": "aditya.sharma@example.com",
+    "city": "Chennai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0023",
+    "name": "Sahil Kulkarni",
+    "email": "sahil.kulkarni@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0024",
+    "name": "Priya Singh",
+    "email": "priya.singh@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0025",
+    "name": "Rohan Patel",
+    "email": "rohan.patel@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0026",
+    "name": "Rashmi Kulkarni",
+    "email": "rashmi.kulkarni@example.com",
+    "city": "Hyderabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0027",
+    "name": "Siddharth Reddy",
+    "email": "siddharth.reddy@example.com",
+    "city": "Vizag",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0028",
+    "name": "Rahul Kulkarni",
+    "email": "rahul.kulkarni@example.com",
+    "city": "Mysore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0029",
+    "name": "Deepika Joshi",
+    "email": "deepika.joshi@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0030",
+    "name": "Karan Patel",
+    "email": "karan.patel@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0031",
+    "name": "Ananya Bhatia",
+    "email": "ananya.bhatia@example.com",
+    "city": "Hyderabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0032",
+    "name": "Aarav Iyer",
+    "email": "aarav.iyer@example.com",
+    "city": "Coimbatore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0033",
+    "name": "Aarav Chaudhary",
+    "email": "aarav.chaudhary@example.com",
+    "city": "Ahmedabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0034",
+    "name": "Nisha Chaudhary",
+    "email": "nisha.chaudhary@example.com",
+    "city": "Delhi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0035",
+    "name": "Ananya Chaudhary",
+    "email": "ananya.chaudhary@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0036",
+    "name": "Rahul Kumar",
+    "email": "rahul.kumar@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0037",
+    "name": "Kavya Mishra",
+    "email": "kavya.mishra@example.com",
+    "city": "Delhi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0038",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer@example.com",
+    "city": "Ahmedabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0039",
+    "name": "Rashmi Sharma",
+    "email": "rashmi.sharma@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0040",
+    "name": "Aarav Desai",
+    "email": "aarav.desai@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0041",
+    "name": "Rashmi Reddy",
+    "email": "rashmi.reddy@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0042",
+    "name": "Deepika Verma",
+    "email": "deepika.verma@example.com",
+    "city": "Ahmedabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0043",
+    "name": "Meera Rao",
+    "email": "meera.rao@example.com",
+    "city": "Delhi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0044",
+    "name": "Rahul Singh",
+    "email": "rahul.singh@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0045",
+    "name": "Aditya Nair",
+    "email": "aditya.nair@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0046",
+    "name": "Karan Iyer",
+    "email": "karan.iyer@example.com",
+    "city": "Mysore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0047",
+    "name": "Meera Joshi",
+    "email": "meera.joshi@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0048",
+    "name": "Rohan Iyer",
+    "email": "rohan.iyer@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0049",
+    "name": "Sneha Nair",
+    "email": "sneha.nair@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0050",
+    "name": "Nisha Singh",
+    "email": "nisha.singh@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0051",
+    "name": "Rohan Desai",
+    "email": "rohan.desai@example.com",
+    "city": "Vizag",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0052",
+    "name": "Siddharth Mishra",
+    "email": "siddharth.mishra@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0053",
+    "name": "Sneha Gupta",
+    "email": "sneha.gupta@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0054",
+    "name": "Ananya Reddy",
+    "email": "ananya.reddy@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0055",
+    "name": "Priya Mishra",
+    "email": "priya.mishra@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0056",
+    "name": "Sahil Nair",
+    "email": "sahil.nair@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0057",
+    "name": "Deepika Verma",
+    "email": "deepika.verma@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0058",
+    "name": "Aarav Nair",
+    "email": "aarav.nair@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0059",
+    "name": "Nisha Kumar",
+    "email": "nisha.kumar@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0060",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0061",
+    "name": "Aditya Nair",
+    "email": "aditya.nair@example.com",
+    "city": "Chennai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0062",
+    "name": "Rashmi Bhatia",
+    "email": "rashmi.bhatia@example.com",
+    "city": "Vizag",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0063",
+    "name": "Deepika Reddy",
+    "email": "deepika.reddy@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0064",
+    "name": "Arjun Sharma",
+    "email": "arjun.sharma@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0065",
+    "name": "Rashmi Rao",
+    "email": "rashmi.rao@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0066",
+    "name": "Rahul Kulkarni",
+    "email": "rahul.kulkarni@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0067",
+    "name": "Rohan Kulkarni",
+    "email": "rohan.kulkarni@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0068",
+    "name": "Vivek Reddy",
+    "email": "vivek.reddy@example.com",
+    "city": "Chennai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0069",
+    "name": "Ananya Rao",
+    "email": "ananya.rao@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0070",
+    "name": "Nisha Verma",
+    "email": "nisha.verma@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0071",
+    "name": "Vivek Patel",
+    "email": "vivek.patel@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0072",
+    "name": "Kavya Kulkarni",
+    "email": "kavya.kulkarni@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0073",
+    "name": "Kavya Kulkarni",
+    "email": "kavya.kulkarni@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0074",
+    "name": "Vivek Iyer",
+    "email": "vivek.iyer@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0075",
+    "name": "Meera Gupta",
+    "email": "meera.gupta@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0076",
+    "name": "Kavya Patel",
+    "email": "kavya.patel@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0077",
+    "name": "Rashmi Mishra",
+    "email": "rashmi.mishra@example.com",
+    "city": "Hyderabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0078",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0079",
+    "name": "Nisha Kumar",
+    "email": "nisha.kumar@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0080",
+    "name": "Kavya Gupta",
+    "email": "kavya.gupta@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0081",
+    "name": "Siddharth Joshi",
+    "email": "siddharth.joshi@example.com",
+    "city": "Madurai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0082",
+    "name": "Sahil Sharma",
+    "email": "sahil.sharma@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0083",
+    "name": "Arjun Verma",
+    "email": "arjun.verma@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0084",
+    "name": "Kavya Desai",
+    "email": "kavya.desai@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0085",
+    "name": "Deepika Gupta",
+    "email": "deepika.gupta@example.com",
+    "city": "Chennai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0086",
+    "name": "Priya Singh",
+    "email": "priya.singh@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0087",
+    "name": "Sneha Sharma",
+    "email": "sneha.sharma@example.com",
+    "city": "Ahmedabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0088",
+    "name": "Siddharth Kulkarni",
+    "email": "siddharth.kulkarni@example.com",
+    "city": "Bangalore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0089",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@example.com",
+    "city": "Pune",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0090",
+    "name": "Vivek Kulkarni",
+    "email": "vivek.kulkarni@example.com",
+    "city": "Jaipur",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0091",
+    "name": "Vivek Kulkarni",
+    "email": "vivek.kulkarni@example.com",
+    "city": "Kochi",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0092",
+    "name": "Sneha Patel",
+    "email": "sneha.patel@example.com",
+    "city": "Chennai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0093",
+    "name": "Nisha Nair",
+    "email": "nisha.nair@example.com",
+    "city": "Mysore",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0094",
+    "name": "Nisha Joshi",
+    "email": "nisha.joshi@example.com",
+    "city": "Ahmedabad",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0095",
+    "name": "Aditya Desai",
+    "email": "aditya.desai@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0096",
+    "name": "Karan Singh",
+    "email": "karan.singh@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0097",
+    "name": "Priya Desai",
+    "email": "priya.desai@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0098",
+    "name": "Arjun Joshi",
+    "email": "arjun.joshi@example.com",
+    "city": "Mumbai",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0099",
+    "name": "Kavya Mishra",
+    "email": "kavya.mishra@example.com",
+    "city": "Trichy",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  },
+  {
+    "id": "owner-0100",
+    "name": "Arjun Kulkarni",
+    "email": "arjun.kulkarni@example.com",
+    "city": "Salem",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80"
+  }
+]
