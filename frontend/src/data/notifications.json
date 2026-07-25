@@ -1,802 +1,802 @@
 [
   {
     "id": "notif-0001",
-    "userId": "owner-0038",
+    "userId": "renter-0043",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aditya Menon.",
+    "timestamp": "2026-07-25T15:13:58.589Z",
     "isRead": true
   },
   {
     "id": "notif-0002",
-    "userId": "owner-0047",
+    "userId": "renter-0181",
     "type": "Update",
-    "message": "System update or booking notification for Meera Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rahul Kulkarni.",
+    "timestamp": "2026-07-25T15:13:58.589Z",
     "isRead": false
   },
   {
     "id": "notif-0003",
-    "userId": "renter-0027",
+    "userId": "owner-0013",
     "type": "Update",
-    "message": "System update or booking notification for Vihaan Patel.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
-  },
-  {
-    "id": "notif-0004",
-    "userId": "owner-0011",
-    "type": "Update",
-    "message": "System update or booking notification for Sahil Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Solanki.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
-    "id": "notif-0005",
-    "userId": "owner-0025",
+    "id": "notif-0004",
+    "userId": "renter-0056",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Patel.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0005",
+    "userId": "owner-0048",
+    "type": "Update",
+    "message": "Notifications updates for user Aditya Patel.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0006",
-    "userId": "owner-0090",
+    "userId": "owner-0019",
     "type": "Update",
-    "message": "System update or booking notification for Vivek Kulkarni.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Vihaan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0007",
-    "userId": "renter-0115",
+    "userId": "renter-0056",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0008",
-    "userId": "owner-0041",
+    "userId": "owner-0030",
     "type": "Update",
-    "message": "System update or booking notification for Rashmi Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Aarav Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0009",
-    "userId": "owner-0083",
+    "userId": "owner-0011",
     "type": "Update",
-    "message": "System update or booking notification for Arjun Verma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Rao.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0010",
-    "userId": "owner-0002",
+    "userId": "renter-0001",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Rohan Gupta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0011",
-    "userId": "owner-0075",
+    "userId": "owner-0039",
     "type": "Update",
-    "message": "System update or booking notification for Meera Gupta.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Aarav Sen.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0012",
-    "userId": "owner-0001",
+    "userId": "owner-0024",
     "type": "Update",
-    "message": "System update or booking notification for Siddharth Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Vihaan Malhotra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0013",
-    "userId": "owner-0082",
+    "userId": "renter-0138",
     "type": "Update",
-    "message": "System update or booking notification for Sahil Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0014",
-    "userId": "renter-0075",
-    "type": "Update",
-    "message": "System update or booking notification for Vivek Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0015",
-    "userId": "owner-0054",
-    "type": "Update",
-    "message": "System update or booking notification for Ananya Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0016",
-    "userId": "owner-0046",
-    "type": "Update",
-    "message": "System update or booking notification for Karan Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0017",
-    "userId": "owner-0050",
-    "type": "Update",
-    "message": "System update or booking notification for Nisha Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0018",
-    "userId": "owner-0019",
-    "type": "Update",
-    "message": "System update or booking notification for Rohan Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0019",
-    "userId": "owner-0048",
-    "type": "Update",
-    "message": "System update or booking notification for Rohan Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Kumar.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
-    "id": "notif-0020",
-    "userId": "renter-0029",
+    "id": "notif-0014",
+    "userId": "owner-0008",
     "type": "Update",
-    "message": "System update or booking notification for Vihaan Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Mehta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0015",
+    "userId": "owner-0094",
+    "type": "Update",
+    "message": "Notifications updates for user Rohan Kapoor.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0016",
+    "userId": "renter-0025",
+    "type": "Update",
+    "message": "Notifications updates for user Arjun Chaudhary.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0017",
+    "userId": "renter-0156",
+    "type": "Update",
+    "message": "Notifications updates for user Sahil Shah.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0018",
+    "userId": "renter-0068",
+    "type": "Update",
+    "message": "Notifications updates for user Rohan Mishra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0019",
+    "userId": "owner-0082",
+    "type": "Update",
+    "message": "Notifications updates for user Aditya Sen.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0020",
+    "userId": "owner-0056",
+    "type": "Update",
+    "message": "Notifications updates for user Vihaan Naidu.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0021",
-    "userId": "renter-0110",
+    "userId": "owner-0074",
     "type": "Update",
-    "message": "System update or booking notification for Karan Patel.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Patel.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0022",
-    "userId": "renter-0137",
+    "userId": "renter-0182",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Gupta.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0023",
-    "userId": "owner-0096",
-    "type": "Update",
-    "message": "System update or booking notification for Karan Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rahul Naidu.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
-    "id": "notif-0024",
-    "userId": "renter-0195",
+    "id": "notif-0023",
+    "userId": "owner-0080",
     "type": "Update",
-    "message": "System update or booking notification for Karan Kulkarni.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Bhatia.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0024",
+    "userId": "owner-0017",
+    "type": "Update",
+    "message": "Notifications updates for user Aarav Patel.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0025",
-    "userId": "owner-0038",
+    "userId": "owner-0024",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Vihaan Malhotra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0026",
-    "userId": "owner-0042",
+    "userId": "owner-0025",
     "type": "Update",
-    "message": "System update or booking notification for Deepika Verma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Joshi.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0027",
-    "userId": "renter-0040",
+    "userId": "owner-0046",
     "type": "Update",
-    "message": "System update or booking notification for Priya Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Vihaan Shah.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0028",
-    "userId": "renter-0084",
+    "userId": "owner-0086",
     "type": "Update",
-    "message": "System update or booking notification for Priya Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Rohan Sinha.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0029",
-    "userId": "renter-0103",
+    "userId": "owner-0012",
     "type": "Update",
-    "message": "System update or booking notification for Ananya Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Menon.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0030",
-    "userId": "owner-0067",
+    "userId": "owner-0013",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Kulkarni.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Aarav Solanki.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0031",
-    "userId": "owner-0074",
+    "userId": "renter-0033",
     "type": "Update",
-    "message": "System update or booking notification for Vivek Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Reddy.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0032",
-    "userId": "renter-0114",
+    "userId": "renter-0182",
     "type": "Update",
-    "message": "System update or booking notification for Sahil Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rahul Naidu.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0033",
-    "userId": "owner-0004",
+    "userId": "renter-0075",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Bhatia.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Menon.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0034",
-    "userId": "renter-0174",
+    "userId": "renter-0124",
     "type": "Update",
-    "message": "System update or booking notification for Kavya Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0035",
-    "userId": "owner-0069",
-    "type": "Update",
-    "message": "System update or booking notification for Ananya Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
-    "id": "notif-0036",
-    "userId": "owner-0077",
+    "id": "notif-0035",
+    "userId": "owner-0008",
     "type": "Update",
-    "message": "System update or booking notification for Rashmi Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Mehta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0036",
+    "userId": "renter-0033",
+    "type": "Update",
+    "message": "Notifications updates for user Karan Reddy.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0037",
-    "userId": "owner-0009",
+    "userId": "renter-0183",
     "type": "Update",
-    "message": "System update or booking notification for Sneha Kumar.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Arjun Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0038",
-    "userId": "renter-0047",
+    "userId": "renter-0067",
     "type": "Update",
-    "message": "System update or booking notification for Arjun Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Rathore.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0039",
-    "userId": "renter-0083",
+    "userId": "owner-0004",
     "type": "Update",
-    "message": "System update or booking notification for Karan Patel.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Gowda.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0040",
-    "userId": "renter-0198",
+    "userId": "owner-0095",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Aditya Shetty.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0041",
-    "userId": "renter-0048",
+    "userId": "owner-0010",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Banerjee.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0042",
-    "userId": "renter-0138",
+    "userId": "renter-0050",
     "type": "Update",
-    "message": "System update or booking notification for Aditya Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Chaudhary.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0043",
-    "userId": "renter-0037",
+    "userId": "owner-0083",
     "type": "Update",
-    "message": "System update or booking notification for Priya Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Bhatia.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0044",
-    "userId": "renter-0153",
+    "userId": "owner-0088",
     "type": "Update",
-    "message": "System update or booking notification for Arjun Chaudhary.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Dubey.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0045",
-    "userId": "owner-0043",
+    "userId": "renter-0103",
     "type": "Update",
-    "message": "System update or booking notification for Meera Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Arjun Kulkarni.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0046",
-    "userId": "owner-0022",
+    "userId": "renter-0091",
     "type": "Update",
-    "message": "System update or booking notification for Aditya Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Solanki.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0047",
-    "userId": "owner-0093",
+    "userId": "renter-0184",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Nair.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Vivek Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0048",
-    "userId": "renter-0158",
+    "userId": "owner-0024",
     "type": "Update",
-    "message": "System update or booking notification for Priya Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Malhotra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0049",
-    "userId": "owner-0077",
+    "userId": "owner-0009",
     "type": "Update",
-    "message": "System update or booking notification for Rashmi Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Aarav Desai.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0050",
-    "userId": "owner-0075",
+    "userId": "owner-0049",
     "type": "Update",
-    "message": "System update or booking notification for Meera Gupta.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aditya Singh.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0051",
-    "userId": "renter-0085",
+    "userId": "owner-0047",
     "type": "Update",
-    "message": "System update or booking notification for Priya Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Kulkarni.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0052",
-    "userId": "renter-0159",
+    "userId": "renter-0018",
     "type": "Update",
-    "message": "System update or booking notification for Kavya Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Reddy.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0053",
-    "userId": "renter-0172",
+    "userId": "renter-0129",
     "type": "Update",
-    "message": "System update or booking notification for Karan Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Sinha.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0054",
-    "userId": "renter-0023",
+    "userId": "owner-0036",
     "type": "Update",
-    "message": "System update or booking notification for Vihaan Nair.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Mishra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0055",
-    "userId": "owner-0044",
+    "userId": "owner-0033",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
-  },
-  {
-    "id": "notif-0056",
-    "userId": "owner-0081",
-    "type": "Update",
-    "message": "System update or booking notification for Siddharth Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Banerjee.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
-    "id": "notif-0057",
-    "userId": "owner-0059",
+    "id": "notif-0056",
+    "userId": "renter-0124",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Kumar.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0057",
+    "userId": "renter-0001",
+    "type": "Update",
+    "message": "Notifications updates for user Rohan Gupta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0058",
-    "userId": "renter-0050",
+    "userId": "renter-0031",
     "type": "Update",
-    "message": "System update or booking notification for Deepika Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Rohan Kulkarni.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0059",
-    "userId": "renter-0198",
+    "userId": "renter-0057",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Saxena.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0060",
-    "userId": "renter-0031",
+    "userId": "renter-0123",
     "type": "Update",
-    "message": "System update or booking notification for Aarav Kumar.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Sahil Nair.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0061",
-    "userId": "renter-0183",
+    "userId": "renter-0093",
     "type": "Update",
-    "message": "System update or booking notification for Vivek Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Arjun Singh.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0062",
-    "userId": "renter-0184",
+    "userId": "renter-0171",
     "type": "Update",
-    "message": "System update or booking notification for Vivek Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
-  },
-  {
-    "id": "notif-0063",
-    "userId": "owner-0056",
-    "type": "Update",
-    "message": "System update or booking notification for Sahil Nair.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
-  },
-  {
-    "id": "notif-0064",
-    "userId": "owner-0098",
-    "type": "Update",
-    "message": "System update or booking notification for Arjun Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rahul Mehta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
-    "id": "notif-0065",
-    "userId": "owner-0024",
+    "id": "notif-0063",
+    "userId": "owner-0076",
     "type": "Update",
-    "message": "System update or booking notification for Priya Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Banerjee.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0064",
+    "userId": "owner-0061",
+    "type": "Update",
+    "message": "Notifications updates for user Vihaan Bhatia.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0065",
+    "userId": "owner-0066",
+    "type": "Update",
+    "message": "Notifications updates for user Vihaan Kulkarni.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0066",
-    "userId": "renter-0014",
+    "userId": "owner-0077",
     "type": "Update",
-    "message": "System update or booking notification for Aditya Nair.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Vihaan Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0067",
-    "userId": "owner-0042",
+    "userId": "renter-0170",
     "type": "Update",
-    "message": "System update or booking notification for Deepika Verma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Rao.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0068",
-    "userId": "owner-0033",
+    "userId": "owner-0040",
     "type": "Update",
-    "message": "System update or booking notification for Aarav Chaudhary.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Rathore.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0069",
-    "userId": "owner-0080",
+    "userId": "renter-0196",
     "type": "Update",
-    "message": "System update or booking notification for Kavya Gupta.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Kapoor.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0070",
-    "userId": "owner-0084",
+    "userId": "owner-0086",
     "type": "Update",
-    "message": "System update or booking notification for Kavya Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Rohan Sinha.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0071",
-    "userId": "renter-0194",
+    "userId": "renter-0011",
     "type": "Update",
-    "message": "System update or booking notification for Siddharth Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aditya Das.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0072",
-    "userId": "renter-0072",
+    "userId": "owner-0025",
     "type": "Update",
-    "message": "System update or booking notification for Vihaan Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Joshi.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0073",
-    "userId": "owner-0094",
+    "userId": "renter-0123",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Sahil Nair.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0074",
-    "userId": "owner-0049",
+    "userId": "owner-0080",
     "type": "Update",
-    "message": "System update or booking notification for Sneha Nair.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Bhatia.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0075",
-    "userId": "renter-0152",
+    "userId": "renter-0147",
     "type": "Update",
-    "message": "System update or booking notification for Priya Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Pandey.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0076",
-    "userId": "owner-0022",
+    "userId": "owner-0074",
     "type": "Update",
-    "message": "System update or booking notification for Aditya Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Vihaan Patel.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0077",
-    "userId": "renter-0170",
+    "userId": "owner-0054",
     "type": "Update",
-    "message": "System update or booking notification for Meera Iyer.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Nair.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0078",
-    "userId": "renter-0059",
+    "userId": "renter-0185",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Rahul Pillai.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0079",
-    "userId": "renter-0035",
+    "userId": "renter-0004",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Sen.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0080",
-    "userId": "renter-0155",
+    "userId": "renter-0195",
     "type": "Update",
-    "message": "System update or booking notification for Deepika Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Arjun Shah.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0081",
-    "userId": "owner-0050",
+    "userId": "renter-0075",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Arjun Menon.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0082",
-    "userId": "renter-0038",
+    "userId": "renter-0179",
     "type": "Update",
-    "message": "System update or booking notification for Priya Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Malhotra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0083",
     "userId": "owner-0077",
     "type": "Update",
-    "message": "System update or booking notification for Rashmi Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0084",
-    "userId": "owner-0047",
+    "userId": "renter-0092",
     "type": "Update",
-    "message": "System update or booking notification for Meera Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
+    "message": "Notifications updates for user Rohan Reddy.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
   },
   {
     "id": "notif-0085",
-    "userId": "owner-0051",
+    "userId": "owner-0028",
     "type": "Update",
-    "message": "System update or booking notification for Rohan Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Nair.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0086",
-    "userId": "renter-0092",
+    "userId": "owner-0030",
     "type": "Update",
-    "message": "System update or booking notification for Vivek Patel.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Prasad.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0087",
-    "userId": "owner-0055",
+    "userId": "owner-0093",
     "type": "Update",
-    "message": "System update or booking notification for Priya Mishra.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0088",
-    "userId": "renter-0132",
+    "userId": "renter-0056",
     "type": "Update",
-    "message": "System update or booking notification for Arjun Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
-  },
-  {
-    "id": "notif-0089",
-    "userId": "renter-0087",
-    "type": "Update",
-    "message": "System update or booking notification for Vivek Gupta.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": true
-  },
-  {
-    "id": "notif-0090",
-    "userId": "renter-0190",
-    "type": "Update",
-    "message": "System update or booking notification for Kavya Joshi.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
-    "id": "notif-0091",
-    "userId": "owner-0008",
+    "id": "notif-0089",
+    "userId": "renter-0050",
     "type": "Update",
-    "message": "System update or booking notification for Sneha Kumar.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Chaudhary.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-0090",
+    "userId": "owner-0091",
+    "type": "Update",
+    "message": "Notifications updates for user Vihaan Rao.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-0091",
+    "userId": "owner-0055",
+    "type": "Update",
+    "message": "Notifications updates for user Aditya Malhotra.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0092",
-    "userId": "owner-0050",
+    "userId": "renter-0025",
     "type": "Update",
-    "message": "System update or booking notification for Nisha Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Arjun Chaudhary.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0093",
-    "userId": "renter-0039",
+    "userId": "renter-0079",
     "type": "Update",
-    "message": "System update or booking notification for Ananya Singh.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Rathore.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": true
   },
   {
     "id": "notif-0094",
-    "userId": "owner-0043",
+    "userId": "renter-0127",
     "type": "Update",
-    "message": "System update or booking notification for Meera Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Sahil Pillai.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0095",
-    "userId": "owner-0005",
+    "userId": "owner-0046",
     "type": "Update",
-    "message": "System update or booking notification for Rashmi Desai.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Vihaan Shah.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0096",
-    "userId": "owner-0028",
+    "userId": "owner-0003",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Kulkarni.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Aarav Sinha.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0097",
-    "userId": "renter-0095",
+    "userId": "owner-0085",
     "type": "Update",
-    "message": "System update or booking notification for Sahil Rao.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Karan Patel.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0098",
-    "userId": "renter-0185",
+    "userId": "owner-0019",
     "type": "Update",
-    "message": "System update or booking notification for Vihaan Kulkarni.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
-    "isRead": false
+    "message": "Notifications updates for user Vihaan Dutta.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
+    "isRead": true
   },
   {
     "id": "notif-0099",
-    "userId": "owner-0002",
+    "userId": "renter-0190",
     "type": "Update",
-    "message": "System update or booking notification for Rahul Sharma.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rahul Rathore.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   },
   {
     "id": "notif-0100",
-    "userId": "owner-0063",
+    "userId": "renter-0095",
     "type": "Update",
-    "message": "System update or booking notification for Deepika Reddy.",
-    "timestamp": "2026-07-25T09:11:42.944Z",
+    "message": "Notifications updates for user Rohan Gowda.",
+    "timestamp": "2026-07-25T15:13:58.590Z",
     "isRead": false
   }
 ]

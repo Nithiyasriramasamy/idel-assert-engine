@@ -9,7 +9,7 @@ import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
 import Shimmer from "@/components/ui/Shimmer";
 import { 
-  MapPin, Star, Building, ShieldCheck, Heart, User, Wifi, Cpu, Camera, 
+  MapPin, Star, Building, ShieldCheck, Heart, User, Wifi, Camera, 
   ChevronRight, Calendar, Info, Clock, CheckCircle2 
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -185,7 +185,7 @@ export default function AssetDetailsPage() {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-semibold text-slate-600">
                 {[
                   { label: "High-Speed Wi-Fi", icon: Wifi },
-                  { label: "IoT Smart Lock Access", icon: Cpu },
+                  { label: "24/7 Gate Access", icon: Clock },
                   { label: "CCTV Security Camera", icon: Camera },
                   { label: "Verified Area Parking", icon: MapPin }
                 ].map((item, i) => {

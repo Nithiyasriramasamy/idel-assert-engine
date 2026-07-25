@@ -5,7 +5,6 @@ import { BookingController } from "../controllers/BookingController";
 import { PaymentController } from "../controllers/PaymentController";
 import { NotificationController } from "../controllers/NotificationController";
 import { DashboardController } from "../controllers/DashboardController";
-import { IotController } from "../iot/IotController";
 import { PricingAi } from "../ai/PricingAi";
 import { NegotiationAi } from "../ai/NegotiationAi";
 import { RecommenderAi } from "../ai/RecommenderAi";
@@ -19,7 +18,6 @@ const bookingCtrl = new BookingController();
 const paymentCtrl = new PaymentController();
 const notifCtrl = new NotificationController();
 const dashCtrl = new DashboardController();
-const iotCtrl = new IotController();
 const pricingAi = new PricingAi();
 const negAi = new NegotiationAi();
 const recAi = new RecommenderAi();
@@ -50,10 +48,6 @@ router.put("/notifications", notifCtrl.markRead);
 // Dashboard & Analytics
 router.get("/dashboard", dashCtrl.getDashboardStats);
 router.get("/analytics", dashCtrl.getAnalytics);
-
-// IoT Locks
-router.get("/iot", iotCtrl.getDeviceLogs);
-router.post("/iot", iotCtrl.triggerAction);
 
 // AI Modules
 router.post("/ai/pricing", pricingAi.calculateDynamicPrice);

@@ -1,16 +1,39 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
-import { Cpu, User, LogOut, ShieldAlert, Sparkles, MapPin, Bell } from "lucide-react";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
+import { Cpu, User, LogOut, Sparkles, Search } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import Button from "@/components/ui/Button";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Navbar() {
+function NavbarComponent() {
   const { user, logout } = useAuth();
   const [scrolled, setScrolled] = useState(false);
   const [showDrawer, setShowDrawer] = useState(false);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const isRenterPage = pathname === "/renter";
+  const [searchVal, setSearchVal] = useState(searchParams.get("q") || "");
+
+  useEffect(() => {
+    setSearchVal(searchParams.get("q") || "");
+  }, [searchParams]);
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value;
+    setSearchVal(val);
+    const params = new URLSearchParams(window.location.search);
+    if (val) {
+      params.set("q", val);
+    } else {
+      params.delete("q");
+    }
+    router.replace(`${pathname}?${params.toString()}`);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,22 +67,35 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Center menu links */}
-        <div className="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
-          <Link href="/renter" className="hover:text-blue-600 transition-colors">
-            Find Spaces
-          </Link>
-          <Link href="/owner" className="hover:text-blue-600 transition-colors">
-            List Asset
-          </Link>
-          <Link href="/ai" className="hover:text-blue-600 transition-colors flex items-center space-x-1">
-            <Sparkles className="h-3.5 w-3.5 text-blue-600" />
-            <span>AI Labs</span>
-          </Link>
-          <Link href="/analytics" className="hover:text-blue-600 transition-colors">
-            Analytics
-          </Link>
-        </div>
+        {/* Center menu links OR Search Bar */}
+        {isRenterPage ? (
+          <div className="flex-1 max-w-md mx-6 relative hidden md:block">
+            <Search className="absolute left-3.5 top-2.5 h-4.5 w-4.5 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Search by area, title, keywords..."
+              value={searchVal}
+              onChange={handleSearchChange}
+              className="w-full pl-11 pr-4 py-2.5 text-xs focus:ring-2 focus:ring-blue-500 rounded-xl border border-slate-200 bg-slate-50/50 focus:bg-white transition-all outline-none"
+            />
+          </div>
+        ) : (
+          <div className="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+            <Link href="/renter" className="hover:text-blue-600 transition-colors">
+              Find Spaces
+            </Link>
+            <Link href="/owner" className="hover:text-blue-600 transition-colors">
+              List Asset
+            </Link>
+            <Link href="/ai" className="hover:text-blue-600 transition-colors flex items-center space-x-1">
+              <Sparkles className="h-3.5 w-3.5 text-blue-600" />
+              <span>AI Labs</span>
+            </Link>
+            <Link href="/analytics" className="hover:text-blue-600 transition-colors">
+              Analytics
+            </Link>
+          </div>
+        )}
 
         {/* User Session actions */}
         <div className="flex items-center space-x-4">
@@ -96,14 +132,16 @@ export default function Navbar() {
                       </div>
 
                       <div className="p-1.5 space-y-0.5">
-                        <Link
-                          href={user.role === "OWNER" ? "/owner" : "/renter"}
-                          onClick={() => setShowDrawer(false)}
-                          className="flex items-center space-x-2.5 px-3 py-2 text-xs font-semibold text-slate-600 rounded-lg hover:bg-slate-50 hover:text-blue-600 transition-all"
-                        >
-                          <Cpu className="h-4 w-4" />
-                          <span>Console Dashboard</span>
-                        </Link>
+                        {!isRenterPage && (
+                          <Link
+                            href={user.role === "OWNER" ? "/owner" : "/renter"}
+                            onClick={() => setShowDrawer(false)}
+                            className="flex items-center space-x-2.5 px-3 py-2 text-xs font-semibold text-slate-600 rounded-lg hover:bg-slate-50 hover:text-blue-600 transition-all"
+                          >
+                            <Cpu className="h-4 w-4" />
+                            <span>Console Dashboard</span>
+                          </Link>
+                        )}
                         <Link
                           href="/profile"
                           onClick={() => setShowDrawer(false)}
@@ -138,4 +176,13 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default function Navbar() {
+  return (
+    <Suspense fallback={<div className="h-16 bg-transparent" />}>
+      <NavbarComponent />
+    </Suspense>
+  );
+}
+
 export { Navbar };

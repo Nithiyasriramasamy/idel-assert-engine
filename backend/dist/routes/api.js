@@ -7,7 +7,6 @@ const BookingController_1 = require("../controllers/BookingController");
 const PaymentController_1 = require("../controllers/PaymentController");
 const NotificationController_1 = require("../controllers/NotificationController");
 const DashboardController_1 = require("../controllers/DashboardController");
-const IotController_1 = require("../iot/IotController");
 const PricingAi_1 = require("../ai/PricingAi");
 const NegotiationAi_1 = require("../ai/NegotiationAi");
 const RecommenderAi_1 = require("../ai/RecommenderAi");
@@ -19,7 +18,6 @@ const bookingCtrl = new BookingController_1.BookingController();
 const paymentCtrl = new PaymentController_1.PaymentController();
 const notifCtrl = new NotificationController_1.NotificationController();
 const dashCtrl = new DashboardController_1.DashboardController();
-const iotCtrl = new IotController_1.IotController();
 const pricingAi = new PricingAi_1.PricingAi();
 const negAi = new NegotiationAi_1.NegotiationAi();
 const recAi = new RecommenderAi_1.RecommenderAi();
@@ -44,9 +42,6 @@ router.put("/notifications", notifCtrl.markRead);
 // Dashboard & Analytics
 router.get("/dashboard", dashCtrl.getDashboardStats);
 router.get("/analytics", dashCtrl.getAnalytics);
-// IoT Locks
-router.get("/iot", iotCtrl.getDeviceLogs);
-router.post("/iot", iotCtrl.triggerAction);
 // AI Modules
 router.post("/ai/pricing", pricingAi.calculateDynamicPrice);
 router.post("/ai/chat", negAi.chatBroker);

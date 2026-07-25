@@ -13,7 +13,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/components/ui/Toast";
 import { 
   Calendar, Clock, ShieldCheck, Check, CreditCard, Landmark, Wallet, 
-  ArrowLeft, Cpu, KeyRound, CheckCircle2 
+  ArrowLeft, CheckCircle2 
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getLocalAssets, getLocalBookings, saveLocalBookings, saveLocalAssets } from "@/utils/mockData";

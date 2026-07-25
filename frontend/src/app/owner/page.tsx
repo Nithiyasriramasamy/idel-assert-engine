@@ -9,7 +9,7 @@ import Input from "@/components/ui/Input";
 import Shimmer from "@/components/ui/Shimmer";
 import { 
   getLocalAssets, saveLocalAssets, getLocalBookings, saveLocalBookings, 
-  getLocalNotifications, getLocalDeviceLogs, saveLocalDeviceLogs 
+  getLocalNotifications 
 } from "@/utils/mockData";
 import { 
   LayoutDashboard, BarChart3, Layers, CalendarCheck, Cpu, 
@@ -58,7 +58,7 @@ interface Notification {
 export default function OwnerConsole() {
   const { user, logout, loading: authLoading } = useAuth();
   const { toast } = useToast();
-  const [activeTab, setActiveTab] = useState<"DASHBOARD" | "ASSETS" | "BOOKINGS" | "IOT" | "AI" | "SETTINGS">("DASHBOARD");
+  const [activeTab, setActiveTab] = useState<"DASHBOARD" | "ASSETS" | "BOOKINGS" | "AI" | "SETTINGS">("DASHBOARD");
 
   // Dashboard Aggregates
   const [stats, setStats] = useState({
@@ -83,11 +83,6 @@ export default function OwnerConsole() {
   const [addDescription, setAddDescription] = useState("");
   const [addIotSerial, setAddIotSerial] = useState("");
 
-  // IoT simulator states
-  const [iotDevices, setIotDevices] = useState<any[]>([]);
-  const [selectedDevice, setSelectedDevice] = useState<any>(null);
-  const [deviceLogs, setDeviceLogs] = useState<any[]>([]);
-
   // AI states
   const [demandFactor, setDemandFactor] = useState("1.3");
   const [surgedAssets, setSurgedAssets] = useState<Asset[]>([]);
@@ -98,7 +93,6 @@ export default function OwnerConsole() {
     if (user) {
       loadDashboardData();
       loadAssetsData();
-      loadIotDevicesData();
     }
   }, [user]);
 
@@ -153,37 +147,7 @@ export default function OwnerConsole() {
     }
   };
 
-  const loadIotDevicesData = async () => {
-    try {
-      const allAssets = getLocalAssets().filter(a => a.deviceId);
-      const devices = allAssets.map(a => ({
-        id: a.deviceId,
-        serialNumber: a.deviceId,
-        battery: 88,
-        status: a.status === "RENTED" ? "ONLINE" : "OFFLINE",
-        temperature: 24.2,
-        signal: 94,
-        assetTitle: a.title,
-        assetId: a.id
-      }));
-      setIotDevices(devices as any[]);
-      if (devices.length > 0) {
-        setSelectedDevice(devices[0]);
-        loadDeviceLogs(devices[0].id || "");
-      }
-    } catch (err) {
-      console.error(err);
-    }
-  };
 
-  const loadDeviceLogs = async (deviceId: string) => {
-    try {
-      const logs = getLocalDeviceLogs().filter(l => l.deviceId === deviceId);
-      setDeviceLogs(logs);
-    } catch (err) {
-      console.error(err);
-    }
-  };
 
   const handleToggleStatus = async (assetId: string, currentStatus: string) => {
     const nextStatus = currentStatus === "AVAILABLE" ? "PAUSED" : "AVAILABLE";
@@ -258,26 +222,7 @@ export default function OwnerConsole() {
     }
   };
 
-  const handleIotCommand = async (action: "LOCK" | "UNLOCK", passcode?: string) => {
-    if (!selectedDevice) return;
-    try {
-      const allLogs = getLocalDeviceLogs();
-      const newLog = {
-        id: "log-" + Math.floor(100000 + Math.random() * 900000).toString(),
-        deviceId: selectedDevice.id,
-        event: `${action} (Command Dispatched)`,
-        timestamp: new Date().toISOString()
-      };
-      allLogs.unshift(newLog);
-      saveLocalDeviceLogs(allLogs);
 
-      toast(`Signal command: ${action} dispatched.`);
-      loadDeviceLogs(selectedDevice.id);
-      loadIotDevicesData();
-    } catch (err) {
-      console.error(err);
-    }
-  };
 
   const triggerAiPricingRecalculation = async () => {
     if (assets.length === 0) return;
@@ -330,7 +275,6 @@ export default function OwnerConsole() {
             { id: "DASHBOARD", label: "Dashboard Overview", icon: LayoutDashboard },
             { id: "ASSETS", label: "Registered Assets", icon: Layers },
             { id: "BOOKINGS", label: "Bookings Ledger", icon: CalendarCheck },
-            { id: "IOT", label: "IoT Simulators", icon: Cpu },
             { id: "AI", label: "Dynamic Surge pricing", icon: Sparkles },
           ].map((tab) => {
             const Icon = tab.icon;
@@ -653,107 +597,7 @@ export default function OwnerConsole() {
               </motion.div>
             )}
 
-            {activeTab === "IOT" && (
-              /* TAB: IOT WEBHOOK SIMULATORS */
-              <motion.div
-                key="iot-tab"
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                className="grid grid-cols-1 md:grid-cols-3 gap-6"
-              >
-                <div className="bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm space-y-3">
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">Linked Hardware Nodes</h3>
-                  <div className="space-y-2 max-h-[400px] overflow-y-auto pr-1">
-                    {iotDevices.map(d => (
-                      <div
-                        key={d.id}
-                        onClick={() => {
-                          setSelectedDevice(d);
-                          loadDeviceLogs(d.id);
-                        }}
-                        className={`p-3.5 rounded-xl cursor-pointer border transition-all flex justify-between items-center ${
-                          selectedDevice?.id === d.id 
-                            ? "bg-blue-50 border-blue-200 text-blue-700" 
-                            : "bg-white border-slate-100 text-slate-600 hover:bg-slate-50"
-                        }`}
-                      >
-                        <div>
-                          <span className="text-xs font-bold text-slate-800 block truncate max-w-[150px]">{d.assetTitle}</span>
-                          <span className="text-[9px] font-mono text-slate-400">{d.serialNumber}</span>
-                        </div>
-                        <Badge variant={d.status === "ONLINE" ? "success" : "danger"}>{d.status}</Badge>
-                      </div>
-                    ))}
-                  </div>
-                </div>
 
-                {selectedDevice ? (
-                  <div className="md:col-span-2 space-y-6">
-                    <div className="bg-white border border-slate-200/60 p-6 rounded-2xl shadow-sm grid grid-cols-2 md:grid-cols-4 gap-4 relative">
-                      <div className="absolute top-4 right-4 flex items-center space-x-2">
-                        <Button
-                          size="sm"
-                          variant="success"
-                          onClick={() => handleIotCommand("UNLOCK", "0000")}
-                        >
-                          Unlock Lock
-                        </Button>
-                        <Button
-                          size="sm"
-                          variant="danger"
-                          onClick={() => handleIotCommand("LOCK")}
-                        >
-                          Lock Lock
-                        </Button>
-                      </div>
-
-                      <div className="col-span-2">
-                        <h4 className="text-[10px] text-slate-400 uppercase font-bold">Leased Asset</h4>
-                        <p className="text-xs font-bold text-slate-800 mt-1">{selectedDevice.assetTitle}</p>
-                        <p className="text-[9px] text-slate-400 font-mono mt-0.5">Serial ID: {selectedDevice.serialNumber}</p>
-                      </div>
-
-                      <div>
-                        <span className="text-[10px] text-slate-400 uppercase font-bold block">Battery Capacity</span>
-                        <div className="flex items-center space-x-1.5 mt-1.5 font-bold text-slate-700 text-xs">
-                          <span className="h-2.5 w-4 bg-green-500 border border-slate-200 rounded-sm" />
-                          <span>{selectedDevice.battery}%</span>
-                        </div>
-                      </div>
-
-                      <div>
-                        <span className="text-[10px] text-slate-400 uppercase font-bold block">Signal Strength</span>
-                        <div className="flex items-baseline space-x-1 mt-1.5 text-xs text-slate-700 font-bold">
-                          <Wifi className="h-3.5 w-3.5 text-blue-600" />
-                          <span>{selectedDevice.signal}%</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-white border border-slate-200/60 p-6 rounded-2xl shadow-sm space-y-4">
-                      <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">Access Event Logs</h4>
-                      <div className="max-h-[220px] overflow-y-auto space-y-1.5 font-mono text-[10px] pr-1">
-                        {deviceLogs.map(l => (
-                          <div key={l.id} className="flex justify-between items-center py-2 border-b border-slate-50 bg-slate-50/50 px-3 rounded-lg">
-                            <span className={l.event === "UNLOCKED" ? "text-green-600 font-bold" : l.event === "LOCKED" ? "text-red-600" : "text-blue-600"}>
-                              [{l.event}]
-                            </span>
-                            <span className="text-slate-400">{new Date(l.timestamp).toLocaleString()}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="md:col-span-2 bg-white border border-slate-200/60 p-6 rounded-2xl shadow-sm text-center text-slate-400 flex flex-col justify-center items-center py-12">
-                    <Cpu className="h-10 w-10 text-slate-300 mb-3" />
-                    <span>No devices available. Please add hardware code to listings.</span>
-                  </div>
-                )}
-
-              </motion.div>
-            )}
 
             {activeTab === "AI" && (
               /* TAB: BROKER AI LABS */

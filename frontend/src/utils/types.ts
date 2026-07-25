@@ -34,7 +34,7 @@ export interface Asset {
   isAiRecommended: boolean;
   distanceKm: number;
   availability: 'AVAILABLE' | 'PAUSED' | 'RENTED';
-  deviceId: string | null;
+  deviceId?: string | null;
   status: string;
 }
 
