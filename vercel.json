@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "buildCommand": "prisma generate --schema=database/schema.prisma && next build",
-  "framework": "nextjs",
-  "regions": ["sfo1"]
-}
