@@ -10,16 +10,16 @@
     "dev": "concurrently \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
     "build": "npm run build --workspace=backend && npm run build --workspace=frontend",
     "start": "npm run start --workspace=backend",
-    "prisma:generate": "npx prisma generate --schema=database/schema.prisma",
-    "prisma:migrate": "npx prisma db push --schema=database/schema.prisma",
-    "prisma:seed": "npx prisma db seed --schema=database/schema.prisma"
+    "prisma:generate": "npx --no-install prisma generate --schema=database/schema.prisma",
+    "prisma:migrate": "npx --no-install prisma db push --schema=database/schema.prisma",
+    "prisma:seed": "npx --no-install prisma db seed --schema=database/schema.prisma"
   },
   "dependencies": {
-    "@prisma/client": "^6.16.2"
+    "@prisma/client": "^6.16.2",
+    "prisma": "^6.16.2"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "prisma": "^6.16.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },

@@ -16,7 +16,7 @@ COPY backend/tsconfig.json ./backend/
 COPY backend/src ./backend/src
 
 # Generate Prisma Client and compile TypeScript
-RUN npx prisma generate --schema=database/schema.prisma
+RUN npx --no-install prisma generate --schema=database/schema.prisma
 RUN cd backend && npm run build
 
 # Production Runner
@@ -37,4 +37,4 @@ COPY database ./database
 EXPOSE 5000
 
 # Run prisma db push to ensure database table migrations exist before starting the server
-CMD ["sh", "-c", "npx prisma db push --schema=./database/schema.prisma && node backend/dist/server.js"]
+CMD ["sh", "-c", "npx --no-install prisma db push --schema=./database/schema.prisma && node backend/dist/server.js"]
