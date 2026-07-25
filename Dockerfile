@@ -1,54 +1,36 @@
-# Multi-stage Docker build for production-ready Next.js web application
-# Stage 1: Install dependencies and copy schema files
-FROM node:18-alpine AS base
+# Multi-stage Docker build for production-ready Express backend
+FROM node:20-alpine AS builder
 
-# Install build tools if needed
-RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-# Stage 2: Install dependencies
-FROM base AS dependencies
-COPY package.json package-lock.json ./
-COPY prisma ./prisma/
-RUN npm install --no-audit --no-fund
-RUN npx prisma generate
+# Copy dependency files
+COPY backend/package*.json ./backend/
+COPY database/schema.prisma ./database/
 
-# Stage 3: Build the application
-FROM base AS builder
-WORKDIR /app
-COPY --from=dependencies /app/node_modules ./node_modules
-COPY . .
-# Run schema migration and compilation
-ENV NEXT_TELEMETRY_DISABLED=1
-ENV DATABASE_URL="file:./prisma/dev.db"
-RUN npx prisma generate
-RUN npm run build
+# Install dependencies inside backend/
+RUN cd backend && npm install
 
-# Stage 4: Production runner
-FROM base AS runner
+# Copy configuration and src files
+COPY backend/tsconfig.json ./backend/
+COPY backend/src ./backend/src
+
+# Generate Prisma Client and compile typescript code
+RUN cd backend && npx prisma generate --schema=../database/schema.prisma && npm run build
+
+# Production Runner
+FROM node:20-alpine
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV PORT=3000
-ENV HOSTNAME="0.0.0.0"
+ENV PORT=5000
 
-# Create a non-root system user for security
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# Copy node modules, compiled files, and database files
+COPY --from=builder /app/backend/package*.json ./backend/
+COPY --from=builder /app/backend/node_modules ./backend/node_modules
+COPY --from=builder /app/backend/dist ./backend/dist
+COPY database ./database
 
-# Copy build artifacts and configuration
-COPY --from=builder /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/prisma ./prisma
+EXPOSE 5000
 
-# Make sure SQLite directory is writable by nextjs user
-RUN chown -R nextjs:nodejs /app/prisma
-
-USER nextjs
-
-EXPOSE 3000
-
-# Perform migrations and start node server
-CMD ["sh", "-c", "npx prisma db push && npm run start"]
+# Run prisma db push to ensure database table migrations exist before starting the server
+CMD ["sh", "-c", "npx prisma db push --schema=./database/schema.prisma && node backend/dist/server.js"]
